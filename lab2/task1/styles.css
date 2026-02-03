@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    width: 150px;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  input {
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button.create-account {
+    background-color: #42b72a;
+    margin-top: 1rem;
+  }
+  
+  .forgot {
+    display: block;
+    margin-top: 0.5rem;
+    color: #1877f2;
+    text-decoration: none;
+  }
+  
+  hr {
+    margin: 1rem 0;
+  }
+  

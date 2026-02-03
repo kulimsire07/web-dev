@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="instagram-login">
+    <div class="phone-container">
+      <!-- Макет телефона -->
+      <img src="../images/iphone-mockup.png" alt="Phone Mockup" class="phone">
+
+      <!-- Форма Instagram поверх телефона -->
+      <form class="instagram-form">
+        <img src="../images/instagram-logo.png" alt="Instagram Logo" class="logo">
+
+        <label for="username">Username, email or phone</label>
+        <input type="text" id="username" placeholder="Username, email or phone" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password" required>
+
+        <button type="submit">Log In</button>
+
+        <div class="or-separator"><span>OR</span></div>
+        <button class="social-login">Log in with Facebook</button>
+        <a href="#" class="forgot">Forgot password?</a>
+      </form>
+    </div>
+
+    <div class="signup-box">
+      Don't have an account? <a href="#">Sign up</a>
+    </div>
+  </main>
+</body>
+</html>
