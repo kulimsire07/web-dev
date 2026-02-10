@@ -1,0 +1,10 @@
+function ucFirst(str) {
+    if (!str) return str;              // проверка на пустую строку
+    return str[0].toUpperCase() + str.slice(1);
+  }
+  
+  // Примеры использования
+  console.log(ucFirst("john"));       // John
+  console.log(ucFirst("alice"));      // Alice
+  console.log(ucFirst(""));           // "" (пустая строка)
+  
